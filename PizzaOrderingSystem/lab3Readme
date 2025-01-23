@@ -1,0 +1,11 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO 
+THE TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY WITH 
+RESPECT TO THIS ASSIGNMENT. 
+THIS IS THE README FILE FOR LAB 3. 
+Author: Noah Bennett
+
+This lab took me around 10 hours to complete.
+
+I found the lab easy for the most part, but separating the functions into multiple different cfiles caused this lab to take more than double the amount of time than it would have if they were all in the same file. It's difficult to have to keep opening gedit for each different function, or have to try and read from the command window using cat.
+
+One issue I had that I solved using the gdb debugger was within my get_thispizza function. I kept getting null pointers when I was trying to assign values to the customer_pizza array. I used the debugger on this function, setting the breakpoint at line one, and printing out the address that the ingredient in the array had and the address that I was assigning each pointer, and found that these were not the same. I fixed this by using scanf instead of get char and assigning a variable to the address of that topping number and adding it and subtracting one to the ingredients_list address.
