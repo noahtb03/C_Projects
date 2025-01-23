@@ -1,0 +1,11 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I STRICTLY ADHERED TO THE 
+TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY. 
+THIS IS THE README FILE FOR LAB 4. 
+
+Author: Noah Bennett
+
+Time taken: 25 hours
+
+Concerns: I think requiring 10 line functions in this lab makes it almost impossible to get full credit, adding functions in this case would not make the code more clean, just add more unnecessary layers.
+
+GDB use: I used gdb many times within this lab. First, I used it when I had seg faults for null pointers, which was confusing at first, because the command window was reading in the date as a file path, so I needed to set args then create my break points at each function name. I used display many times to check the values of variables. In the beginning my scanf file wasn't reading the dates correctly so I learned I needed to put a space before the % sign in order to offset any errors due to whitespace. Finally, I used gdb to figure out why my 12th method wasn't running correctly, by again setting breakpoints within each method to get to the one that had the error.
