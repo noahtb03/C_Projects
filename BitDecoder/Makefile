@@ -1,4 +1,4 @@
-# Noah Bennett
+# Author: Noah Bennett
 
 gcc_opt = -std=c99 -pedantic -Wimplicit-function-declaration -Wreturn-type -Wformat -g -c
 
@@ -9,7 +9,7 @@ all: bit_decode.zip bit_decode1 bit_decode2
 bit_decode.zip: Makefile bit_decode.c LAB2README
 	zip lab2.zip Makefile bit_decode.c LAB2README
 
-# this target is the binary converter executable that doesn't prompt for input
+# binary converter executable that doesn't prompt for input
 bit_decode2: bit_decode2.o
 	gcc bit_decode2.o -o bit_decode2
 
