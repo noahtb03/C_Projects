@@ -1,9 +1,8 @@
 # Noah Bennett
-# comments in a Makefile start with sharp 
 
 gcc_opt = -std=c99 -pedantic -Wimplicit-function-declaration -Wreturn-type -Wformat -g -c
 
-# target all means all targets currently defined in this file
+# all targets currently defined in this file
 all: bit_decode.zip bit_decode1 bit_decode2
 
 # .zip file
