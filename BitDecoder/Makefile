@@ -4,10 +4,10 @@
 gcc_opt = -std=c99 -pedantic -Wimplicit-function-declaration -Wreturn-type -Wformat -g -c
 
 # target all means all targets currently defined in this file
-all: lab2.zip bit_decode1 bit_decode2
+all: bit_decode.zip bit_decode1 bit_decode2
 
-# this target is the .zip file that must be submitted to Carmen
-lab2.zip: Makefile bit_decode.c LAB2README
+# .zip file
+bit_decode.zip: Makefile bit_decode.c LAB2README
 	zip lab2.zip Makefile bit_decode.c LAB2README
 
 # this target is the binary converter executable that doesn't prompt for input
