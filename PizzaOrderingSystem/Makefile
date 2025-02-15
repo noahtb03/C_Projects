@@ -1,6 +1,3 @@
-# BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED
-# TO THE TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY WITH
-# RESPECT TO THIS ASSIGNMENT.
 #Noah Bennett
 
 # comments in a Makefile start with sharp 
@@ -9,7 +6,7 @@ gcc_opt = -std=c99 -pedantic -Wimplicit-function-declaration -Wreturn-type -Wfor
 # target all means all targets currently defined in this file
 all: lab3.zip lab3
 
-# this target is the .zip file that must be submitted to Carmen
+# this target is the .zip file
 lab3.zip: Makefile lab3main.c get_ingredients.c get_item.c get_thispizza.c save_info.c free_dmem.c display_pizza.c writefile.c display_ingredients.c lab3.h lab3Readme
 	zip lab3.zip Makefile lab3main.c get_ingredients.c get_item.c get_thispizza.c save_info.c free_dmem.c display_pizza.c writefile.c display_ingredients.c lab3.h lab3Readme
 
