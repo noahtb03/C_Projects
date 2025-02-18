@@ -1,9 +1,3 @@
-BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO 
-THE TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY WITH 
-RESPECT TO THIS ASSIGNMENT. 
-THIS IS THE README FILE FOR LAB 3. 
-Author: Noah Bennett
-
 This lab took me around 10 hours to complete.
 
 I found the lab easy for the most part, but separating the functions into multiple different cfiles caused this lab to take more than double the amount of time than it would have if they were all in the same file. It's difficult to have to keep opening gedit for each different function, or have to try and read from the command window using cat.
